@@ -7,16 +7,6 @@ switch (_mode) do {
 
 		private _txt = "";
 
-		//for "_i" from 0 to (count scoreArray - 1) do {
-		//
-		//	
-		//	_arr = scoreArray select _i; 
-		//	if (typeName _arr != "STRING") then {
-		//	_arr set [0, _arr#0 call geo_fnc_systemFormat]; };
-//
-//
-		//};
-
 		_ctrlListNbox lnbAddRow ["Timestamp", "Distance", "Time", "Total Attempts", "Profile"];
 
 		{

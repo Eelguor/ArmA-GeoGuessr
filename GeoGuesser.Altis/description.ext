@@ -1,0 +1,15 @@
+
+author = "Rougle";
+onLoadName = "Geo Guesser";
+loadScreen = "";
+overviewPicture = "";
+onPauseScript[] = {geo_fnc_onPauseScript};
+
+joinUnassigned = 0;
+skipLobby = 1; // Skips the lobby
+
+#include "headers\masterheader.hpp"
+
+class CfgFunctions {
+	#include "cfgFunctions.hpp"
+};

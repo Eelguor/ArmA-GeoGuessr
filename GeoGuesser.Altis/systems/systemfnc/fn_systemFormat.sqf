@@ -2,13 +2,10 @@ _s = _this;
 
 for "_i" from 0 to count _this -1 do {  
 	if ( typeName _s == "STRING") then {continue};
-	//try {_d = +_s#_i; throw "lol"} catch {continue};
-	
-	if (count (toArray ((_s#_i) toFixed 0)) == 1) then {
-		_s set [_i, "0"+ (_s#_i toFixed 0)];}
 
-	else 
-	{
+	if (count (toArray ((_s#_i) toFixed 0)) == 1) then {
+		_s set [_i, "0"+ (_s#_i toFixed 0)];
+	} else {
 		_s set [_i, _s#_i toFixed 0];
 	};
 }; 

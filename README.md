@@ -10,9 +10,9 @@ for example:
 - .stratis
 - .cherno
 
-To play the mission you need to put it in your Missions folder. The path will look something like this:
+To play the mission you need to put it in your MPMissions folder. The path will look something like this:
 
-C:\Users\%user%\Documents\Arma 3 - Other Profiles\%profile%\missions
+C:\Users\%user%\Documents\Arma 3 - Other Profiles\%profile%\mpmissions
 
 NOTE: The folder you put in the missions folder will be named "GeoGuessr.altis"
 
